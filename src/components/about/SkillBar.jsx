@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SkillBar = ({ skill, level }) => (
+  
   <div className="mb-4">
     <div className="flex justify-between mb-2">
       <span className="text-sm font-medium text-white">{skill}</span>
