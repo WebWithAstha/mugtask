@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionTitle from '../partials/SectionTitle';
 import ProjectCard from './ProjectCard';
-import Button from '../partials/Button';
 import Link from 'next/link';
 
 const OptionBtn = ({text,link})=>{
@@ -15,9 +14,9 @@ const OptionBtn = ({text,link})=>{
 }
 
 const Projects = () => (
-  <section className="dark:bg-black bg-white  dark:text-white py-12">
+  <section className="dark:bg-black px-[10vw] bg-white  dark:text-white md:py-12">
     <SectionTitle title="My Projects"  subtitle={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum numquam nisi ducimus eveniet facere hic architecto modi reprehenderit adipisci."} />
-    <div className="flex gap-2 items-center justify-center mb-6">
+    <div className="flex gap-2 items-center justify-center flex-wrap mb-6">
       <OptionBtn text={"All"} bgcolor={"bg-transparent"}/>
       <OptionBtn text={"UI/UX"} bgcolor={"bg-transparent"}/>
       <OptionBtn text={"Web Design"} bgcolor={"bg-transparent"}/>

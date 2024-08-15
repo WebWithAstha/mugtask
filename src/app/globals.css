@@ -4,26 +4,52 @@
 
 
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: poppins; */
+}
+
 .swiper {
-  width: 100%;
-  /* height: 100%; */
-  height: 50vh;
+  width: 80%;
+  height: 40vh;
+  overflow: visible !important;
+
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: grab;
+  width: 70vw!important;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.swiper-pagination{
+  margin-bottom: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide-prev,.swiper-slide-next{
+  opacity: 0.5;
+}
+.swiper-pagination-bullet{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px !important;
+  height: 1vh !important;
+  width: 5vw !important;
+  display: inline-block;
+} 
+.swiper-pagination-bullet-active{
+  background-color: orange !important;
 }

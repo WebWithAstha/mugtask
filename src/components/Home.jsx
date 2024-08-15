@@ -6,10 +6,12 @@ import Projects from './projects/Project';
 import Testimonials from './testimonials/Testimonial';
 import Contact from './Contact';
 import Footer from './Footer';
+import Navbar from './partials/nav/Navbar';
 
 const Home = () => {
   return (
-    <div className='px-[10vw]'>
+    <div className=''>
+      <Navbar/>
       <Hero />
       <About />
       <Services />
