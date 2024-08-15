@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import SectionTitle from '../partials/SectionTitle';
+import Image from 'next/image';
 
 
 // import required modules
