@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import SectionTitle from '../partials/SectionTitle';
-import Image from 'next/image';
+
 
 
 // import required modules
@@ -71,7 +71,7 @@ export default function SwipperJs() {
                           <div className="flex gap-2 items-end">
 
                             <div className="img rounded-full md:w-40 w-20 h-full aspect-square">
-                                <Image src={testimonial.image} className=' h-full w-full rounded-full' alt="" />
+                                <img src={testimonial.image} className=' h-full w-full rounded-full' alt="" />
                             </div>
                             <div className="text-left md:hidden block">
                             <h1 className='font-bold text-xs mt-3'>{testimonial.name}</h1>
