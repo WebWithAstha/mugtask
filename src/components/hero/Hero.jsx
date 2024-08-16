@@ -4,7 +4,7 @@ import SocialLinks from './SocialLinks';
 import Button from '../partials/Button';
 
 const Hero = () => (
-    <section className="dark:bg-[#1e1e1e] bg-white px-[10vw] dark:text-white py-12 flex md:flex-row flex-col-reverse justify-between">
+    <section className="dark:bg-[#1e1e1e] bg-white px-[10vw] dark:text-white py-12 md:pt-24 flex md:flex-row flex-col-reverse justify-between">
         <div className="left md:w-1/2 w-full mt-10 md:mt-20">
             <h2>Hi I'm</h2>
             <h4 className='text-orange-500 font-semibold md:mb-0 mb-2'>Muhammad Umair</h4>
