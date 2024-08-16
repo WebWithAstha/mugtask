@@ -5,7 +5,7 @@ import Button from '../Button'
 
 const Navbar = () => {
   return (
-    <div className='w-full px-[10vw] flex items-center justify-between py-4'>
+    <div className='w-full dark:bg-[#1e1e1e] dark:text-white px-[10vw] flex items-center justify-between py-4'>
     <Logo height={"30"} width={"120"}/>
     <div className="flex md:gap-8 gap-2 items-center">
       <div className="md:flex items-center gap-6 hidden">

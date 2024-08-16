@@ -4,7 +4,7 @@ import SectionTitle from '../partials/SectionTitle';
 
 
 const Services = () => (
-  <section className="dark:bg-black px-[10vw] bg-white  dark:text-white py-12">
+  <section className="dark:bg-[#1e1e1e] px-[10vw] bg-white  dark:text-white py-12">
     <SectionTitle title="Services" subtitle={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum numquam nisi ducimus eveniet facere hic architecto modi reprehenderit adipisci."} />
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       <ServiceCard icon="/images/Vector.png" title="UX Design" description="Creating user-friendly designs for websites and apps." />

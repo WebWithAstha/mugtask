@@ -6,7 +6,7 @@ import Link from 'next/link';
 const OptionBtn = ({text,link})=>{
   return(
     <Link href={link ? link :''} 
-    className="inline-block border hover:bg-orange-600 hover:text-white text-sm py-1.5 px-4 rounded transition duration-300"
+    className="inline-block border border-zinc-400 dark:border-transparent hover:bg-orange-600 hover:border-transparent hover:text-white dark:bg-white bg-zinc-100 text-black text-sm py-1.5 px-4 rounded-lg transition duration-300"
   >
     {text}
 </Link>
@@ -14,7 +14,7 @@ const OptionBtn = ({text,link})=>{
 }
 
 const Projects = () => (
-  <section className="dark:bg-black px-[10vw] bg-white  dark:text-white md:py-12">
+  <section className="dark:bg-[#1e1e1e] px-[10vw] bg-white  dark:text-white md:py-12">
     <SectionTitle title="My Projects"  subtitle={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum numquam nisi ducimus eveniet facere hic architecto modi reprehenderit adipisci."} />
     <div className="flex gap-2 items-center justify-center flex-wrap mb-6">
       <OptionBtn text={"All"} bgcolor={"bg-transparent"}/>

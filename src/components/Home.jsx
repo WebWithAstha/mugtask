@@ -10,7 +10,7 @@ import Navbar from './partials/nav/Navbar';
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='dark:bg-[#1e1e1e] bg-white'>
       <Navbar/>
       <Hero />
       <About />
